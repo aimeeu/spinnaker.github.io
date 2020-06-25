@@ -477,14 +477,22 @@ guides:
   - title: Developer How-Tos
     collapsed: true
     children:
-      - title: Getting Set Up
-        url: /guides/developer/getting-set-up/
-      - title: Writing a New Stage
-        url: /guides/developer/new-stage/
-      - title: Kork Library
-        url: /guides/developer/kork-library/
-      - title: Kubernetes CRD extensions
-        url: /guides/developer/crd-extensions/
+      - title: Developer Environment
+        collapsed: true
+        children:
+          - title: Kork Library
+            url: /guides/developer/dev-env/kork-library/
+          - title: Common Internals
+            url: /guides/developer/dev-env/common-internals/
+          - title: Getting Set Up
+            url: /guides/developer/dev-env/getting-set-up/
+      - title: Extending Spinnaker
+        collapsed: true
+        children:
+          - title: Writing a New Stage
+            url: /guides/developer/extending/new-stage/
+          - title: Kubernetes CRD extensions
+            url: /guides/developer/extending/crd-extensions/
       - title: Plugin Creators Guide
         collapsed: true
         children:
@@ -494,6 +502,13 @@ guides:
             url: /guides/developer/plugin-creators/stage-plugin-walkthrough/
           - title: Plugin Project Configuration
             url: /guides/developer/plugin-creators/project-config/
+          - title: Test Using Minnaker
+            collapsed: true
+            children:
+              - title: Backend Plugin
+                url: /guides/developer/plugin-creators/test/backend-plugin/
+              - title: Deck Plugin
+                url: /guides/developer/plugin-creators/test/deck-plugin/
   - title: Operator How-Tos
     collapsed: true
     children:
