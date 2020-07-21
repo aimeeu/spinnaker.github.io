@@ -1,17 +1,22 @@
 ---
 layout: single
-title:  "New Spinnaker Contribution Walkthrough Session"
+title:  "New Spinnaker Contribution Walkthrough Workshop"
 sidebar:
   nav: community
+redirects:
+  - /community/gardening/spin-contrib/
 ---
 
-{% include toc %}
-
-This page contains notes for the _New Spinnaker Contribution Walkthrough_ session. Register for the session on the Gardening Days [schedule](/community/gardening/schedule/).
+This page contains notes for the _New Spinnaker Contribution Walkthrough_ session at the July Gardening Days. Register for the session on the Gardening Days [schedule](/community/gardening/schedule/).
 
 Registered attendees will receive credentials to access their own Kubernetes namespace on an AWS EKS cluster for the duration of the event.
 
 Attendees are encouraged to use this environment for their hackathon projects as well.
+
+Watch the workshop [recording](https://youtu.be/Sb5CO6RQx_Q) from July 17, 2020.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sb5CO6RQx_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{% include toc %}
 
 ## Session goals
 

@@ -782,8 +782,13 @@ community:
         url: /community/gardening/what-to-hack/
       - title: Slack Map
         url: /community/gardening/slack-map/
-      - title: New Spinnaker Contribution Walkthrough Session
-        url: /community/gardening/spin-contrib/
+      - title: Workshops
+        collapsed: false
+        children:
+          - title: New Spinnaker Contribution Walkthrough Workshop
+            url: /community/gardening/workshops/contrib-workshop/
+          - title: Plugin Training Workshop
+            url: /community/gardening/workshops/plugins-workshop/
       - title: Dev Environments
         url: /community/gardening/dev-environment/
       - title: Developing Plugins
