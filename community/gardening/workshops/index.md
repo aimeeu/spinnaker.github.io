@@ -8,4 +8,4 @@ sidebar:
 This section contains the following content:
 
 * [New Spinnaker Contribution Walkthrough Workshop](/community/gardening/workshops/contrib-workshop/)
-* [Plugins Workshop](/community/gardening/workshops/plugins-workshop/)
+* [Plugin Training Workshop](/community/gardening/workshops/plugin-workshop/)
