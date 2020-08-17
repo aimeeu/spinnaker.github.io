@@ -498,6 +498,8 @@ guides:
       - title: Extending Spinnaker
         collapsed: true
         children:
+          - title: When and How to Extend Spinnaker
+            url: /guides/developer/extending/extend-overview/ 
           - title: Writing a New Stage
             url: /guides/developer/extending/new-stage/
           - title: Kubernetes CRD extensions
